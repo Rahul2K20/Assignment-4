@@ -20,8 +20,8 @@ public class IndividualHolder extends AccountHolder implements Util {
     public void setSSN(String Social){
         SSN = Social; 
     }
-	@Override
-	public String convertNameUpperCase(String name) {
-		return name.toUpperCase();
-	}
+    @Override
+    public String convertNameUpperCase(String name) {
+       return name.toUpperCase();
+    }
 }
