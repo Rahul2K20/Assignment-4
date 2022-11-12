@@ -12,13 +12,13 @@ public class Account
         balance += amt; 
     }
     public void withdraw(double amt){
-        if(balance<amt) {
-			System.out.println("Insufficient Balance");
-		}
+       if(balance<amt) {
+         System.out.println("Insufficient Balance");
+	 }
         else{
         balance -= amt; 
         }
-    }
+      }
     public double getBalance() {
         return balance; 
     }
